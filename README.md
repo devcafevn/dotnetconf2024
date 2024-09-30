@@ -1,3 +1,3 @@
-# .NET Conf 2023 - Vietnam
+# .NET Conf 2024 - Vietnam
 
- https://devcafevn.github.io/dotnetconf2023
+ https://devcafevn.github.io/dotnetconf2024
