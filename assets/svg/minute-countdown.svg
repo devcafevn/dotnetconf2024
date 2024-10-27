@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 166.17 104.78">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Cam-Đỏ);
+        stroke-width: 0px;
+      }
+    </style>
+    <linearGradient id="Cam-Đỏ" x1="73.27" y1="52.39" x2="239.44" y2="52.39" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f4ad33"/>
+      <stop offset=".07" stop-color="#ef952f"/>
+      <stop offset=".23" stop-color="#e86729"/>
+      <stop offset=".39" stop-color="#e14224"/>
+      <stop offset=".55" stop-color="#dc2520"/>
+      <stop offset=".7" stop-color="#d8101e"/>
+      <stop offset=".85" stop-color="#d6041c"/>
+      <stop offset="1" stop-color="#d6001c"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-1" d="M44.89,104.78v-19.17H0v-16.05L48.45,0h18.73v68.22h14.27v17.39h-14.27v19.17h-22.29ZM44.89,68.22V27.35h3.72l-31.96,46.22v-5.35h28.24Z"/>
+      <path class="cls-1" d="M94.23,104.78L144.61,11.89v7.43h-53.8V0h75.36v17.24l-46.52,87.54h-25.42Z"/>
+    </g>
+  </g>
+</svg>

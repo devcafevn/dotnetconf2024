@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 128.51 128.51">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #26285a;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 5.25px;
+      }
+
+      .cls-2 {
+        fill: url(#Cam-Đỏ);
+        stroke-width: 0px;
+      }
+    </style>
+    <linearGradient id="Cam-Đỏ" x1="2.63" y1="29.46" x2="58.29" y2="29.46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f4ad33"/>
+      <stop offset=".07" stop-color="#ef952f"/>
+      <stop offset=".23" stop-color="#e86729"/>
+      <stop offset=".39" stop-color="#e14224"/>
+      <stop offset=".55" stop-color="#dc2520"/>
+      <stop offset=".7" stop-color="#d8101e"/>
+      <stop offset=".85" stop-color="#d6041c"/>
+      <stop offset="1" stop-color="#d6001c"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <line class="cls-1" x1="64.12" y1="43.99" x2="64.12" y2="48.49"/>
+        <line class="cls-1" x1="64.12" y1="80.02" x2="64.12" y2="84.52"/>
+        <path class="cls-1" d="M52.78,72.14h0c0,4.33,3.55,7.88,7.88,7.88h6.76c4.33,0,7.88-3.55,7.88-7.88h0c0-4.33-3.55-7.88-7.88-7.88h-6.76c-4.33,0-7.88-3.55-7.88-7.88h0c0-4.33,3.55-7.88,7.88-7.88h6.76c3.12,0,5.84,1.84,7.11,4.49"/>
+      </g>
+      <path class="cls-2" d="M2.63,56.3h20.62c3.35-17.37,17.42-30.87,35.05-33.4V2.63C29.65,5.38,6.28,27.9,2.63,56.3Z"/>
+      <path class="cls-1" d="M70.22,2.63v20.25c20.25,2.91,35.83,20.3,35.83,41.37,0,23.11-18.71,41.85-41.8,41.85-21.74,0-39.59-16.62-41.6-37.86H2.63c2.05,32.26,28.89,57.65,61.63,57.65s61.63-27.51,61.63-61.63c0-32.1-24.39-58.62-55.67-61.63Z"/>
+    </g>
+  </g>
+</svg>

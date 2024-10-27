@@ -1,178 +1,482 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DEV Cafe - .NET Conf 2024 Vietnam</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta property="og:title" content="DEV Cafe - .NET Conf 2024 Vietnam" />
-  <meta property="og:image" content="https://devcafevn.github.io/dotnetconf2023/images/dotnetconf2023-vn-wide.jpg" />
-  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css" />
-
-  <link rel="stylesheet" href="css/animate.css" />
-  <link rel="stylesheet" href="css/slick.css" />
-  <link rel="stylesheet" href="js/rs-plugin/css/settings.css" />
-  <link rel="stylesheet" href="css/site.css" />
-  <link rel="stylesheet" href="css/custom.css?v=03" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DEV Cafe - .NET Conf 2024 Vietnam</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet" />
 </head>
 
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">.NET Conf 2024 - Vietnam</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="50" tabindex="0">
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-dark navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img id="main-logo" src="./assets/svg/main-logo.svg" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active nav-text" aria-current="page" href="#about-section">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-text" href="#agenda-section">Agenda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-text" href="#speakers-section">Speakers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-text" href="#sponsors-section">Sponsors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-text" href="#contact-section">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <div class="text-center intro d-flex align-items-end justify-content-center pb-3">
-      <div class="intro-body">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div id="divTimer" class="countdown"></div>
-            </div>
-          </div>
+
+    <!-- Sections -->
+    <img src="./assets/img/about-bg.jpg" alt="Landing background" id="landing-background" />
+    <div id="landing-section" class="container-fluid">
+        <img src="./assets/svg/big-title.svg" alt=".NET Conf 2024 Vietnam" id="big-title" />
+        <div id="when-info">
+            <img src="./assets/svg/calendar.svg" alt="calendar-icon" class="info-icons" />
+            <div class="info-text">23 November 2024 | 09:00 AM - 12:30 PM</div>
         </div>
-      </div>
+        <div id="where-info">
+            <img src="./assets/svg/location.svg" alt="location-icon" class="info-icons" />
+            <div class="info-text">
+                <div>Vincom Center Dong Khoi - 15<sup>th</sup></div>
+                <div style="font-weight: lighter;">45A Ly Tu Trong Street, Ben Nghe Ward, District 1, HCMC</div>
+            </div>
+        </div>
+        <div id="when-info">
+            <img src="./assets/svg/ms-team-icon.svg" alt="ms-team-icon" class="info-icons" />
+            <div class="info-text">Online via Microsoft Teams</div>
+            <!--<a class="btn btn-info ms-teams-btn-primary join-online-text" href="#">Join Online</a>-->
+        </div>
+        <a href="https://forms.office.com/r/s8xsXKFHqq"><img src="./assets/svg/register-now-btn.svg" alt="Register Now" id="register-now-btn" /></a>
     </div>
-  </header>
-  <div class="wrapper">
-    <section id="about">
-      <div class="container">
-        <div class="section-heading scrollpoint sp-effect3">
-          <h1>.NET Conf 2024 - Vietnam</h1>
-          <h2 class="event-date">23 NOV 2024</h2>
-          <div class="divider"></div>
-          <p>
-            Hybrid event event, all talks about Microsoft .NET!
-          </p>
-        </div>
-        <div class="row">
-          <div class="col-12 col-sm-4">
-            <div class="about-item scrollpoint sp-effect2">
-              <i class="fa fa-cloud fa-2x"></i>
-              <h3 class="my-4">Deep Dive Sessions</h3>
-              <p>
-                Hybrid event with <strong>deep dive</strong> sessions about .NET 9.0 and its ecosystem:
-                C# 13, ASP.NET Core 9, Entity Framework Core, Blazor, AI...
-              </p>
+    <div id="countdown-background">
+        <div id="countdown-container">
+            <div class="dummy-space-countdown"></div>
+            <img src="./assets/svg/count-down-to-event.svg" alt="Count down to event" id="count-down-to-event" />
+            <div id="count-down-clock">
             </div>
-          </div>
-          <div class="col-12 col-sm-4">
-            <div class="about-item scrollpoint sp-effect5">
-              <i class="fa fa-usd fa-2x"></i>
-              <h3 class="my-4">Free registration</h3>
-              <p>
-                Entry to this event is totally <strong>FREE</strong>!
-              </p>
-            </div>
-          </div>
-          <div class="col-12 col-sm-4">
-            <div class="about-item scrollpoint sp-effect5">
-              <i class="fa fa-users fa-2x"></i>
-              <h3 class="my-4">Discuss with Experts</h3>
-              <p>
-                Have questions, need to discuss your technical issues, or looking for some advise, do attend to speak
-                to the <strong>experts</strong>
-              </p>
-            </div>
-          </div>
+            <div class="dummy-space-countdown"></div>
         </div>
-      </div>
-    </section>
-    <section id="sponsors">
-      <div class="container">
-        <div class="section-heading scrollpoint sp-effect3">
-          <h1>Sponsors</h1>
-          <div class="divider"></div>
-        </div>
-        <div class="row align-items-center">
-          <div class="col-lg-6 text-center">
-            <a href="https://www.nashtechglobal.com" target="_blank"><img class="img-fluid" style="max-width:80%"
-                src="images/Nash_Tech_Primary_Pos.svg" alt="Microsoft MVP" /></a><br />
-            <br />
-          </div>
-          <div class="col-lg-6 text-center">
-            <a href="https://www.microsoft.com/" target="_blank"><img class="w-100" src="images/msft.png"
-                alt="Microsoft" /></a><br />
-            <br />
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="contact" class="container content-section text-center">
-      <div class="container">
-        <div class="section-heading scrollpoint sp-effect3">
-          <h1>Stay Connected</h1>
-          <div class="divider"></div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <ul class="list-inline banner-social-buttons">
-              <li class="list-inline-item mb-3">
-                <a href="mailto:NTDevCafe@Nashtechglobal.com" target="_blank" class="btn btn-default btn-lg"><i
-                    class="fa fa-envelope fa-fw"></i> <span class="network-name">Email to DEV Cafe</span></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-  <footer>
-    <div class="large_white_light sft" data-x="center" data-y="250" data-hoffset="0" data-voffset="0" data-speed="1000"
-      data-start="1400" data-easing="Power4.easeOut">
-      [ Designed by
-      <a href="//www.ganshani.com/?ref=azurebootcamp" target="_blank">Punit Ganshani</a>, Update by
-      <a href="mailto:NTDevCafe@Nashtechglobal.com" target="_blank">DEV Cafe</a>, Theme
-      <a href="//www.scoopthemes.com/templates/Oleose/Freeze/" target="_blank">Freeze</a> ]
+        <div id="countdown-container"></div>
     </div>
-  </footer>
-  <script src="lib/jquery/dist/jquery.js"></script>
-  <script src="lib/jquery-ui/jquery-ui.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  <!-- Animation JS -->
-  <script src="js/slick.min.js" asp-append-version="true"></script>
-  <script src="js/placeholdem.min.js"></script>
-  <script src="js/rs-plugin/js/jquery.themepunch.plugins.min.js" asp-append-version="true"></script>
-  <script src="js/rs-plugin/js/jquery.themepunch.revolution.min.js" asp-append-version="true"></script>
-  <script src="js/waypoints.min.js" asp-append-version="true"></script>
+    <div id="about-section">
+        <img src="./assets/svg/about-section-title.svg" alt="About section title" id="about-section-title" />
 
-  <!--Custom JS-->
+        <div id="about-container">
+            <div id="about-table-row">
+                <div class="about-table-cell">
+                    <div class="about-items">
+                        <img src="./assets/svg/deep-dive-section.svg" alt="Deep dive sections"
+                            id="deepdive-item-icon" />
+                        <p class="about-item-title">Deep Dive Sessions</p>
+                        <p class="about-item-text">
+                            Hybrid event with deep dive sessions about .NET 9.0 and its ecosystem: C# 13, ASP.NET Core 9, Entity Framework Core, Blazor, AI...
+                        </p>
+                    </div>
+                </div>
+                <div class="about-table-cell">
+                    <div class="about-items">
+                        <img src="./assets/svg/discuss-with-expert.svg" alt="Discuss with experts"
+                            class="about-item-icon" />
+                        <p class="about-item-title">Discuss with Experts</p>
+                        <p class="about-item-text">
+                            Have questions, need to discuss your technical issues, or
+                            looking for some advice, do attend to speak to the experts
+                        </p>
+                    </div>
+                </div>
+                <div class="about-table-cell">
+                    <div class="about-items">
+                        <img src="./assets/svg/free-registration.svg" alt="Free registration" class="about-item-icon" />
+                        <p class="about-item-title">Free registration</p>
+                        <p class="about-item-text">
+                            Entry to this event is totally FREE!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/svg/gift-section-title.svg" alt="Gift section title" id="gift-section-title" />
 
-  <script src="js/jquery.countdown.min.js" asp-append-version="true"></script>
-  <script src="js/site.js" asp-append-version="true"></script>
-  <script src="js/custom.js" asp-append-version="true"></script>
+        <div id="gift-background">
+            <div id="gift-container">
+                <div class="gift-item">
+                    <img src="./assets/img/gifts/ao-thun.png" alt="Ao thun" class="gift-picture" />
+                    <img src="./assets/svg/ao-thun-title.svg" alt="Ao thun" class="gift-title" />
+                </div>
+                <div class="gift-item">
+                    <img src="./assets/img/gifts/balo.png" alt="Balo" class="gift-picture" />
+                    <img src="./assets/svg/balo-title.svg" alt="Balo" id="balo-title" />
+                </div>
+                <div class="gift-item">
+                    <!-- <div class="gift-img-container gift-radial-gradient gift-picture"></div> -->
+                    <img src="./assets/img/gifts/tai-nghe.png" alt="Tai nghe" class="gift-picture" />
+                    <img src="./assets/svg/tai-nghe-title.svg" alt="Tai nghe" class="gift-title" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="agenda-section">
+        <img src="./assets/svg/agenda-section-title.svg" alt="Agenda section title" id="agenda-section-title" />
+        <div class="row agenda-item">
+            <div class="col-md-2 col-sm-4 agenda-timeslot">
+                <div class="text-centered">
+                    <div class="module-border-wrap">
+                        <div class="module">08:30 AM - 09:00 AM</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-10 col-sm-8 col-sm-8 agenda-content">
+                <div class="agenda-title-container">
+                    <span class="agenda-title-left">Check-in</span>
+                </div>
+            </div>
+        </div>
+        <div class="row agenda-item">
+            <div class="col-md-2 col-sm-4 agenda-timeslot">
+                <div class="text-centered">
+                    <div class="module-border-wrap">
+                        <div class="module">09:00 AM - 09:10 AM</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-10 col-sm-8 col-sm-8 agenda-content">
+                <div class="agenda-title-container">
+                    <span class="agenda-title-left">Opening</span>
+                </div>
+            </div>
+        </div>
+        <div class="row agenda-item">
+            <div class="col-md-2 agenda-timeslot">
+                <div class="text-centered">
+                    <div class="module-border-wrap">
+                        <div class="module">09:10 AM - 09:55 AM</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-10 col-sm-8 agenda-content">
+                <div class="agenda-title-container">
+                    <span class="agenda-title-left">Gain a deeper understanding  of ASP.NET Core by exploring its source code &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span><span
+                        class="agenda-title-right">Thien Nguyen</span>
+                </div>
+                <div class="agenda-description">
+                    By exploring the source code of asp.net core, you can uncover its architecture principles and design patterns that underpin its functionality. In this session, I will work you through important parts of asp.net core source code like routing, how aspnet core process requests, how authentication, authorization work under the hood.
+                </div>
+            </div>
+        </div>
+        <div class="row agenda-item">
+            <div class="col-md-2 agenda-timeslot">
+                <div class="text-centered">
+                    <div class="module-border-wrap">
+                        <div class="module">10:00 AM - 10:45 AM</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-10 col-sm-8 agenda-content">
+                <div class="agenda-title-container">
+                    <span class="agenda-title-left">Simplify the development of distributed applications with .NET Aspire 9&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span><span class="agenda-title-right">Thang
+                        Chung</span>
+                </div>
+                <div class="col-md-10 col-sm-8 agenda-description">
+                    This presentation will introduce the new features in .NET Aspire 9 and demonstrate how they can simplify the development and testing of distributed applications. By the end of the presentation, we will showcase distributed apps within the coffee shop business domain to illustrate all the capabilities of .NET Aspire 9.
+                </div>
+            </div>
+        </div>
+        <div class="row agenda-item">
+            <div class="col-md-2 col-sm-4 agenda-timeslot">
+                <div class="text-centered">
+                    <div class="module-border-wrap">
+                        <div class="module">10:45 AM - 11:00 AM</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-10 col-sm-8 col-sm-8 agenda-content">
+                <div class="agenda-title-container">
+                    <span class="agenda-title-left">Tea break</span>
+                </div>
+            </div>
+        </div>
+        <div class="row agenda-item">
+            <div class="col-md-2 agenda-timeslot">
+                <div class="text-centered">
+                    <div class="module-border-wrap">
+                        <div class="module">11:00 AM - 11:45 AM</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-10 col-sm-8 agenda-content">
+                <div class="agenda-title-container">
+                    <span class="agenda-title-left">TBU</span>
+                </div>
+                <div class="agenda-description">
+                </div>
+            </div>
+        </div>
+        <div class="row agenda-item">
+            <div class="col-md-2 agenda-timeslot">
+                <div class="text-centered">
+                    <div class="module-border-wrap">
+                        <div class="module">11:50 AM - 12:35 PM</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-10 col-sm-8 agenda-content">
+                <div class="agenda-title-container">
+                    <span class="agenda-title-left">Autogen &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span><span class="agenda-title-right">Phi
+                        Huynh</span>
+                </div>
+                <div class="agenda-description">
+                </div>
+            </div>
+        </div>
+        <div class="row agenda-item">
+            <div class="col-md-2 col-sm-4 agenda-timeslot">
+                <div class="text-centered">
+                    <div class="module-border-wrap">
+                        <div class="module">12:35 PM - 12:45 PM</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-10 col-sm-8 col-sm-8 agenda-content">
+                <div class="agenda-title-container">
+                    <span class="agenda-title-left">Lucky draw and closing</span>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/svg/speakers-section-title.svg" alt="Speakers section title" id="speakers-section-title" />
+    </div>
+    <div id="speakers-sponsor-background">
+        <div id="speakers-section">
+            <div class="speakers-row">
+                <div class="speaker-item">
+                    <img src="./assets/img/speakers/a-thien.png" alt="Speaker" class="speaker-image" />
+                    <div class="speaker-block">
+                        <p class="speaker-name">Thien Nguyen</p>
+                        <hr class="speaker-divider" />
+                        <p class="speaker-description lines-clamp-4">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                        </p>
+                        <span class="speaker-description-link">
+                            <a href="#">See more</a>
+                        </span>
+                        <div class="speaker-social">
+                            <a class="social-icon" target="_blank" href="https://www.facebook.com/thiennlq">
+                                <span alt="Speaker" class="facebook"></span>
+                            </a>
+                            <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/thiennn">
+                                <span alt="Speaker" class="linkedin"></span>
+                            </a>
+                            <a class="social-icon" target="_blank" href="https://github.com/thiennn">
+                                <span alt="Speaker" class="github"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="speaker-item">
+                    <img src="./assets/img/speakers/a-phi.png" alt="Speaker" class="speaker-image" />
+                    <div class="speaker-block">
+                        <p class="speaker-name">Phi Huynh</p>
+                        <hr class="speaker-divider" />
+                        <p class="speaker-description lines-clamp-4">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                        </p>
+                        <span class="speaker-description-link">
+                            <a href="#">See more</a>
+                        </span>
+                        <div class="speaker-social">
+                            <a class="social-icon" target="_blank" href="https://www.facebook.com/trumxomcui/">
+                                <span alt="Speaker" class="facebook"></span>
+                            </a>
+                            <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/trumhemcut/">
+                                <span alt="Speaker" class="linkedin"></span>
+                            </a>
+                            <a class="social-icon" target="_blank" href="#">
+                                <span alt="Speaker" class="github"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="speakers-row" style="padding-bottom: 8%; border-bottom: 1px solid dimgray">
+                <div class="speaker-item">
+                    <img src="./assets/img/speakers/a-thang.png" alt="Speaker" class="speaker-image" />
+                    <div class="speaker-block">
+                        <p class="speaker-name">Thang Chung</p>
+                        <hr class="speaker-divider" />
+                        <p class="speaker-description lines-clamp-4">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                        </p>
+                        <span class="speaker-description-link">
+                            <a href="#">See more</a>
+                        </span>
 
-  <script>
-    $(document).ready(function () {
-      appMaster.preLoader()
+                        <div class="speaker-social">
+                            <a class="social-icon" target="_blank" href="#">
+                                <span alt="Speaker" class="facebook"></span>
+                            </a>
+                            <a class="social-icon" target="_blank" href="#">
+                                <span alt="Speaker" class="linkedin"></span>
+                            </a>
+                            <a class="social-icon" target="_blank" href="https://github.com/thangchung">
+                                <span alt="Speaker" class="github"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="speaker-item">
+                    <img src="./assets/img/speakers/a-phong.png" alt="Speaker" class="speaker-image" />
 
-      $('#divTimer').countdown('2024/11/23 08:30:00', function (event) {
-        $(this).html(
-          event.strftime(
-            '<div>%D <span>Days</span></div>  <div>%H<span>Hours</span></div> <div>%M<span>Minutes</span></div> <div>%S<span>Seconds</span></div>'
-          )
-        )
-      })
-    })
-  </script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137805626-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+                    <div class="speaker-block">
+                        <p class="speaker-name">Phong Nguyen</p>
+                        <hr class="speaker-divider" />
+                        <p class="speaker-description lines-clamp-4">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                        </p>
+                        <span class="speaker-description-link">
+                            <a href="#">See more</a>
+                        </span>
+                        <div class="speaker-social">
+                            <a class="social-icon" target="_blank" href="#">
+                                <span alt="Speaker" class="facebook"></span>
+                            </a>
+                            <a class="social-icon" target="_blank" href="#">
+                                <span alt="Speaker" class="linkedin"></span>
+                            </a>
+                            <a class="social-icon" target="_blank" href="#">
+                                <span alt="Speaker" class="github"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div id="vertical-speakers">
+                <div class="speaker-item">
+                    <img src="./assets/img/speakers/a-thien.png" alt="Speaker" class="speaker-image" />
+                    <div class="speaker-block">
+                        <p class="speaker-name">Thien Nguyen</p>
+                        <hr class="speaker-divider" />
+                        <p class="speaker-description">
+                            Thien is Technical Manager at NashTech, a Microsoft MVP and the
+                            creator of SimplCommerce. He is a passionate developer, a mentor
+                            and a speaker...
+                        </p>
+                        <div class="speaker-social">
+                            <img src="./assets/img/fb-icon.png" alt="Speaker" class="speaker-social-icon" />
+                            <img src="./assets/img/linkedin-icon.png" alt="Speaker" class="speaker-social-icon" />
+                            <img src="./assets/img/github-icon.png" alt="Speaker" class="speaker-social-icon" />
+                        </div>
+                    </div>
+                </div>
+                <div class="speaker-item">
+                    <img src="./assets/img/speakers/a-phi.png" alt="Speaker" class="speaker-image" />
+                    <div class="speaker-block">
+                        <p class="speaker-name">Phi Huynh</p>
+                        <hr class="speaker-divider" />
+                        <p class="speaker-description">
+                            Phi Huynh is currently working as R&D Manager at NashTech,
+                            building new skills for the company, helping NashTech’s
+                            community up-to-date with latest...
+                        </p>
+                        <div class="speaker-social">
+                            <img src="./assets/img/fb-icon.png" alt="Speaker" class="speaker-social-icon" />
+                            <img src="./assets/img/linkedin-icon.png" alt="Speaker" class="speaker-social-icon" />
+                            <img src="./assets/img/github-icon.png" alt="Speaker" class="speaker-social-icon" />
+                        </div>
+                    </div>
+                </div>
+                <div class="speaker-item">
+                    <img src="./assets/img/speakers/a-thang.png" alt="Speaker" class="speaker-image" />
+                    <div class="speaker-block">
+                        <p class="speaker-name">Thang Chung</p>
+                        <hr class="speaker-divider" />
+                        <p class="speaker-description">
+                            Thang is a NashTech’s Technical Manager and a Microsoft MVP. He
+                            passions to work on OSS projects and mainly focuses on
+                            designing, implementing and...
+                        </p>
+                        <div class="speaker-social">
+                            <img src="./assets/img/fb-icon.png" alt="Speaker" class="speaker-social-icon" />
+                            <img src="./assets/img/linkedin-icon.png" alt="Speaker" class="speaker-social-icon" />
+                            <img src="./assets/img/github-icon.png" alt="Speaker" class="speaker-social-icon" />
+                        </div>
+                    </div>
+                </div>
+                <div class="speaker-item" style="padding-bottom: 8%; border-bottom: 1px solid dimgray">
+                    <img src="./assets/img/speakers/a-phong.png" alt="Speaker" class="speaker-image" />
+                    <div class="speaker-block">
+                        <p class="speaker-name">Phong Nguyen</p>
+                        <hr class="speaker-divider" />
+                        <p class="speaker-description">
+                            Phong is currently working as Technical Architect at NashTech.
+                            He has over 12+ years of experience in designing, building and
+                            integrating Enterprise...
+                        </p>
+                        <div class="speaker-social">
+                            <img src="./assets/img/fb-icon.png" alt="Speaker" class="speaker-social-icon" />
+                            <img src="./assets/img/linkedin-icon.png" alt="Speaker" class="speaker-social-icon" />
+                            <img src="./assets/img/github-icon.png" alt="Speaker" class="speaker-social-icon" />
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div id="our-sponsors-title">Our sponsors</div>
+            <div id="sponsors-icon-group">
+                <img src="./assets/img/nashtech-icon.png" alt="NashTech" id="nt-sponsor-icon" />
+                <img src="./assets/img/microsoft-icon.png" alt="Microsoft" id="ms-sponsor-icon" />
+            </div>
+        </div>
+    </div>
+    <div id="contact-section-background">
+        <div class="half-block">
+            <img src="./assets/svg/about-us-text.svg" alt="About us" id="about-us-text" />
+            <img src="./assets/img/fb-icon.png" alt="FB Icon" class="contact-section-icon" />
+            <img src="./assets/svg/website-icon.svg" alt="Website Icon" id="website-icon" />
+        </div>
+        <div class="half-block">
+            <img src="./assets/svg/contact-us-text.svg" alt="Contact us" id="contact-us-text" />
+            <img src="./assets/img/email-icon.png" alt="Email Icon" class="contact-section-icon" />
+        </div>
+    </div>
 
-    gtag('config', 'UA-137805626-2');
-  </script>
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
+    <!-- Custom JS for Navbar background and text color change on scroll -->
+    <script src="js/scripts.js"></script>
+
+    <script src="js/jquery/dist/jquery.min.js"></script>
+    <script src="js/jquery.countdown.min.js" asp-append-version="true"></script>
+    <script>
+        $(document).ready(function () {
+            $("#count-down-clock").countdown(
+                "2024/11/23 08:30:00",
+                function (event) {
+                    $(this).html(
+                        event.strftime(
+                            '<div class="single-block-digit"><div class="gradient-text">%D</div><p class="time-unit-text">Days</p></div><div class="single-block-digit"><div class="gradient-text">%H</div><p class="time-unit-text">Hours</p></div><div class="single-block-digit"><div class="gradient-text">%M</div><p class="time-unit-text">Minutes</p></div><div class="single-block-digit"><div class="gradient-text">%S</div><p class="time-unit-text">Seconds</p></div>'
+                        )
+                    );
+                }
+            );
+        });
+    </script>
 </body>
 
 </html>

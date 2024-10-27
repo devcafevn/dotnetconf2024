@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 420.52 76.61">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: url(#linear-gradient);
+        stroke-miterlimit: 10;
+        stroke-width: 2.52px;
+      }
+
+      .cls-2 {
+        fill: #1c1934;
+        font-family: Mulish-Bold, Mulish;
+        font-size: 34.16px;
+        font-weight: 700;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0" y1="38.31" x2="420.52" y2="38.31" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f4ad33"/>
+      <stop offset=".14" stop-color="#f3a832"/>
+      <stop offset=".29" stop-color="#f09b30"/>
+      <stop offset=".45" stop-color="#ed852d"/>
+      <stop offset=".62" stop-color="#e76629"/>
+      <stop offset=".78" stop-color="#e03f24"/>
+      <stop offset=".95" stop-color="#d80f1e"/>
+      <stop offset="1" stop-color="#d6001c"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <rect class="cls-1" x="1.26" y="1.26" width="418" height="74.09"/>
+    <text class="cls-2" transform="translate(42.02 54.04)"><tspan x="0" y="0">09:00 AM - 09:05 AM</tspan></text>
+  </g>
+</svg>
