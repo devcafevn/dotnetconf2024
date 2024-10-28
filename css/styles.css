@@ -37,15 +37,15 @@ html {
 
 
 .github {
-  background-image: url("/assets/img/github-icon.png");
+  background-image: url("../assets/img/github-icon.png");
 }
 
 .facebook {
-  background-image: url("/assets/img/fb-icon.png");
+  background-image: url("../assets/img/fb-icon.png");
 }
 
 .linkedin {
-  background: url("/assets/img/linkedin-icon.png");
+  background: url("../assets/img/linkedin-icon.png");
 }
 
 /* Lines clamp */
