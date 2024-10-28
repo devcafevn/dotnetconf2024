@@ -439,13 +439,13 @@ html {
 }
 
 .gift-picture {
-  /* width: 60%; */
-  /* height: auto; */
-  /* min-width: 290px; */
-  /* height: 290px; */
+  background: url(../assets/img/gift-bg.png) 50%/cover border-box padding-box;
+  border: 2px solid white;
+  border-radius: 50%;
 }
 
 .gift-title {
+  margin-top: 4rem;
   width: 40%;
   height: auto;
 }
@@ -931,6 +931,7 @@ html {
   }
 
   .gift-title {
+    margin-top: 2rem;
     width: 40%;
     height: auto;
   }
