@@ -80,6 +80,10 @@ html {
   padding: 0 8%;
 }
 
+.gift-section-padding {
+  padding: 8% 8% 0;
+}
+
 .content-centered {
   justify-content: center;
   align-items: center;
@@ -149,7 +153,7 @@ html {
 
 
 .gradient-text {
-  background: linear-gradient(90deg, yellow, red);
+  background: linear-gradient(90deg, #F4AB41, #ED1C24);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -337,7 +341,7 @@ html {
 }
 
 .about-section-title {
-  width: 15%;
+  width: 12%;
   height: auto;
 }
 
@@ -403,12 +407,8 @@ html {
   padding-bottom: 8%;
 }
 
-.gift-section .content-padding {
-  padding-top: 8%;
-}
-
 .gift-section-title {
-  width: 10%;
+  width: 7.5%;
   height: auto;
 }
 
@@ -483,7 +483,7 @@ html {
 
 .agenda-timeslot {
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .agenda-timeline {
@@ -504,10 +504,16 @@ html {
 
 .agenda-title-left {
   font-weight: bold;
+  padding-right: 1rem;
+}
+
+.agenda-title-left-border {
+  border-right: 2px solid black;
 }
 
 .agenda-title-right {
   color: #0094D5;
+  padding-left: 1rem;
   font-weight: bold;
 }
 
@@ -516,7 +522,7 @@ html {
 }
 
 .speakers-section-title {
-  width: 15%;
+  width: 13%;
   height: auto;
 }
 
@@ -537,7 +543,7 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   padding: 8% 8% 4% 8%;
 }
 
@@ -545,7 +551,7 @@ html {
   display: flex;
   /* width: 40%; */
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   margin: 4% auto
 }
 
@@ -602,7 +608,7 @@ html {
 
 .our-sponsors-title {
   color: white;
-  font-size: 4rem;
+  font-size: 4vw;
   margin: 0 0 4% 0;
 }
 
@@ -650,7 +656,7 @@ html {
 }
 
 .contact-section-icon {
-  width: 84px;
+  width: 10%;
   height: auto;
 }
 
@@ -665,10 +671,9 @@ html {
 }
 
 .website-icon {
-  width: 64px;
+  width: 8%;
   height: auto;
 }
-
 
 /* Reponsive */
 @media only screen and (max-width: 1024px) {
@@ -686,11 +691,11 @@ html {
   }
 
   .nav-text {
-    font-size: calc(1vw + 1vh);
+    font-size: calc(0.8vw + 0.8vh);
   }
 
   .main-logo {
-    height: 2.5rem;
+    height: 2.2rem;
     width: auto;
   }
 
@@ -712,6 +717,10 @@ html {
     height: auto;
     margin-top: 0.6rem;
     cursor: pointer;
+  }
+
+  .about-section-title {
+    width: 13%;
   }
 
   .count-down-to-event {
@@ -784,14 +793,12 @@ html {
   }
 
   .agenda-section-title {
-    width: 12%;
+    width: 16%;
     height: auto;
     margin-top: 6vw;
   }
 
   .agenda-item {
-    flex-direction: column;
-    align-items: flex-start;
     padding-bottom: 1rem;
     margin-top: 1rem;
     margin-left: 0;
@@ -844,7 +851,7 @@ html {
   }
 
   .speaker-image {
-    width: 20%;
+    width: 35%;
     height: auto;
   }
   .speaker-name {
@@ -865,12 +872,34 @@ html {
     font-size: 2rem;
   }
 
+  .about-us-text {
+    width: 40%;
+  }
+
+  .contact-us-text {
+    width: 40%;
+  }
+
+  .contact-section-icon {
+    width: 14%;
+  }
+
+  .website-icon {
+    width: 12%;
+  }
 }
 
 
 @media only screen and (min-width: 992px) {
   .vertical-speakers {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .speaker-image {
+    width: 28%;
+    height: auto;
   }
 }
 
@@ -908,7 +937,7 @@ html {
   }
 
   .about-section-title {
-    width: 30%;
+    width: 24%;
   }
 
   .about-container {
@@ -917,12 +946,16 @@ html {
     margin-bottom: 1rem;
   }
 
+  .gift-section-padding {
+    padding: 8% 22%;
+  }
+
   .gift-item {
     margin: 4% 0;
   }
 
   .gift-section-title {
-    width: 20%;
+    width: 15%;
   }
 
   .gift-picture {
@@ -942,27 +975,31 @@ html {
   }
 
   .agenda-section-title {
-    width: 40%;
+    width: 30%;
   }
 
   .speakers-section-title {
-    width: 30%;
+    width: 25%;
   }
 
   .contact-section-icon {
-    width: 32px;
+    width: 12%;
   }
 
   .about-us-text {
-    width: 30%;
+    width: 36%;
   }
 
   .contact-us-text {
-    width: 30%;
+    width: 36%;
   }
 
   .website-icon {
-    width: 28px;
+    width: 10%;
+  }
+
+  .our-sponsors-title {
+    font-size: 6vw;
   }
 }
 
@@ -985,8 +1022,7 @@ html {
   } */
 
   .our-sponsors-title {
-    font-size: 1.8rem;
-    /* font-size: calc(1.3vw + 1.3vh); */
+    font-size: calc(1.9vw + 1.9vh);
   }
 
   .sponsors-icon-group {

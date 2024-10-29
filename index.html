@@ -22,7 +22,7 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" class="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link active nav-text" aria-current="page" href="#about-section">About</a>
@@ -54,7 +54,7 @@
         <div class="where-info">
             <img src="./assets/svg/location.svg" alt="location-icon" class="info-icons" />
             <div class="info-text">
-                <div>Vincom Center Dong Khoi - 15<sup>th</sup> Floor</div>
+                <div>Vincom Center Dong Khoi - 15<sup>th</sup></div>
                 <div style="font-weight: lighter;">45A Ly Tu Trong Street, Ben Nghe Ward, District 1, HCMC</div>
             </div>
         </div>
@@ -63,7 +63,7 @@
             <div class="info-text">Online via Microsoft Teams</div>
             <!--<a class="btn btn-info ms-teams-btn-primary join-online-text" href="#">Join Online</a>-->
         </div>
-        <a href="https://forms.office.com/r/aSZA2WLb4C" target="_blank"><img src="./assets/svg/register-now-btn.svg" alt="Register Now" class="register-now-btn" /></a>
+        <img src="./assets/svg/register-now-btn.svg" alt="Register Now" class="register-now-btn" />
     </div>
     <div class="countdown-background">
         <div class="countdown-container">
@@ -88,7 +88,7 @@
                         class="deepdive-item-icon" />
                     <p class="about-item-title">Deep Dive Sessions</p>
                     <p class="about-item-text">
-                        Both in-person and virtual event with deep dive sessions about .NET 9.0 and its ecosystem: C# 13, ASP.NET Core 9, Entity Framework Core, Blazor, AI...
+                        Hybrid event with deep dive sessions about .NET 9.0 and its ecosystem: C# 13, ASP.NET Core 9, Entity Framework Core, Blazor, AI...
                     </p>
                 </div>
                 <div class="col-md-4 col-sm-12 about-items">
@@ -115,15 +115,18 @@
                 <img src="./assets/svg/gift-section-title.svg" alt="Gift section title" class="gift-section-title" />
             </div>
 
-            <div class="row g-0 content-padding">
+            <div class="row g-0 gift-section-padding">
                 <div class="col-md-4 col-sm-12 gift-item">
                     <img src="./assets/img/gifts/ao-thun.png" alt="Ao thun" class="img-fluid gift-picture" />
+                    <img src="./assets/svg/ao-thun-title.svg" alt="Ao thun" class="img-fluid gift-title" />
                 </div>
                 <div class="col-md-4 col-sm-12 gift-item">
                     <img src="./assets/img/gifts/balo.png" alt="Balo" class="img-fluid gift-picture" />
+                    <img src="./assets/svg/balo-title.svg" alt="Balo" class="img-fluid gift-title" />
                 </div>
                 <div class="col-md-4 col-sm-12 gift-item">
                     <img src="./assets/img/gifts/tai-nghe.png" alt="Tai nghe" class="img-fluid gift-picture" />
+                    <img src="./assets/svg/tai-nghe-title.svg" alt="Tai nghe" class="img-fluid gift-title" />
                 </div>
             </div>
         </div>
@@ -133,147 +136,146 @@
                 <img src="./assets/svg/agenda-section-title.svg" alt="Agenda section title" class="agenda-section-title" />
             </div>
             <!-- Check-in -->
-            <div class="row g-0 agenda-item">
-                <div class="col-md-3 col-sm-4 ps-0 pe-4 agenda-timeslot">
+            <div class="row g-0 agenda-item mb-5 mb-lg-0">
+                <div class="col-xl-2 col-lg-3 col-md-12 agenda-timeslot">
                     <div class="text-centered">
                         <div class="module-border-wrap">
                             <div class="module">08:30 AM - 09:00 AM</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-9 col-sm-8 ps-md-4 agenda-content">
+                <div class="col-xl-1 col-lg-1 col-md-12"></div>
+                <div class="col-xl-9 col-lg-8 col-md-12 agenda-content">
                     <div class="agenda-title-container">
-                        <span class="agenda-title-left">Check-in</span>
+                        <span class="agenda-title-left mt-2">Check-in</span>
                     </div>
                 </div>
             </div>
             <!-- Opening -->
-            <div class="row g-0 agenda-item">
-                <div class="col-md-3 col-sm-4 ps-0 pe-4 agenda-timeslot">
+            <div class="row g-0 agenda-item mb-5 mb-lg-0">
+                <div class="col-xl-2 col-lg-3 col-md-12 agenda-timeslot">
                     <div class="text-centered">
                         <div class="module-border-wrap">
                             <div class="module">09:00 AM - 09:10 AM</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-9 col-sm-8 ps-md-4 agenda-content">
+                <div class="col-xl-1 col-lg-1 col-md-12"></div>
+                <div class="col-xl-9 col-lg-8 col-md-12 agenda-content">
                     <div class="agenda-title-container">
-                        <span class="agenda-title-left">Opening</span>
+                        <span class="agenda-title-left mt-2">Opening</span>
                     </div>
                 </div>
             </div>
             <!-- Gain a deeper understanding of ASP.NET Core by exploring its source code    |   Thien Nguyen -->
-            <div class="row g-0 agenda-item">
-                <div class="col-md-3 col-sm-4 ps-0 pe-4 agenda-timeslot">
+            <div class="row g-0 agenda-item mb-5 mb-lg-0">
+                <div class="col-xl-2 col-lg-3 col-md-12 agenda-timeslot">
                     <div class="text-centered">
                         <div class="module-border-wrap">
                             <div class="module">09:10 AM - 09:55 AM</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-9 col-sm-8 ps-md-4 agenda-content">
+                <div class="col-xl-1 col-lg-1 col-md-12"></div>
+                <div class="col-xl-9 col-lg-8 col-md-12 agenda-content">
                     <div class="agenda-title-container">
-                        <span class="agenda-title-left">Gain a deeper understanding of ASP.NET Core by exploring its source code</span>
-                        <span class="d-none d-sm-block">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
-                        <span class="agenda-title-right">Thien Nguyen</span>
+                        <span class="agenda-title-left agenda-title-left-border mt-2">Gain a deeper understanding of ASP.NET Core by exploring its source code</span>
+                        <span class="agenda-title-right mt-2">Thien Nguyen</span>
                     </div>
-                    <div class="col-md-9 col-sm-8 agenda-description">
+                    <div class="col-md-12 agenda-description lines-clamp-4 mt-2">
                         By exploring the source code of asp.net core, you can uncover its architecture principles and design patterns that underpin its functionality. In this session, I will work you through important parts of asp.net core source code like routing, how aspnet core process requests, how authentication, authorization work under the hood.
                     </div>
                 </div>
             </div>
             <!-- Simplify the development of distributed applications with .NET Aspire 9   |   Thang Chung -->
-            <div class="row g-0 agenda-item">
-                <div class="col-md-3 col-sm-4 ps-0 pe-4 agenda-timeslot">
+            <div class="row g-0 agenda-item mb-5 mb-lg-0">
+                <div class="col-xl-2 col-lg-3 col-md-12 agenda-timeslot">
                     <div class="text-centered">
                         <div class="module-border-wrap">
                             <div class="module">10:00 AM - 10:45 AM</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-9 col-sm-8 ps-md-4 agenda-content">
+                <div class="col-xl-1 col-lg-1 col-md-12"></div>
+                <div class="col-xl-9 col-lg-8 col-md-12 agenda-content">
                     <div class="agenda-title-container">
-                        <span class="agenda-title-left">Simplify the development of distributed applications with .NET Aspire 9</span>
-                        <span class="d-none d-sm-block">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
-                        <span class="agenda-title-right">Thang Chung</span>
+                        <span class="agenda-title-left agenda-title-left-border mt-2">Simplify the development of distributed applications with .NET Aspire 9</span>
+                        <span class="agenda-title-right mt-2">Thang Chung</span>
                     </div>
-                    <div class="col-md-9 col-sm-8 agenda-description">
+                    <div class="col-md-12 agenda-description lines-clamp-4 mt-2">
                         This presentation will introduce the new features in .NET Aspire 9 and demonstrate how they can simplify the development and testing of distributed applications. By the end of the presentation, we will showcase distributed apps within the coffee shop business domain to illustrate all the capabilities of .NET Aspire 9.
                     </div>
                 </div>
             </div>
             <!-- Tea break -->
-            <div class="row g-0 agenda-item">
-                <div class="col-md-3 col-sm-4 ps-0 pe-4 agenda-timeslot">
+            <div class="row g-0 agenda-item mb-5 mb-lg-0">
+                <div class="col-xl-2 col-lg-3 col-md-12 agenda-timeslot">
                     <div class="text-centered">
                         <div class="module-border-wrap">
                             <div class="module">10:45 AM - 11:00 AM</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-9 col-sm-8 ps-md-4 agenda-content">
+                <div class="col-xl-1 col-lg-1 col-md-12"></div>
+                <div class="col-xl-9 col-lg-8 col-md-12 agenda-content">
                     <div class="agenda-title-container">
-                        <span class="agenda-title-left">Tea break</span>
+                        <span class="agenda-title-left mt-2">Tea break</span>
                     </div>
                     <div class="agenda-description lines-clamp-4"></div>
                 </div>
             </div>
 
             <!-- TBU -->
-            <div class="row g-0 agenda-item">
-                <div class="col-md-3 col-sm-4 ps-0 pe-4 agenda-timeslot">
+            <div class="row g-0 agenda-item mb-5 mb-lg-0">
+                <div class="col-xl-2 col-lg-3 col-md-12 agenda-timeslot">
                     <div class="text-centered">
                         <div class="module-border-wrap">
                             <div class="module">11:00 AM - 11:45 AM</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-9 col-sm-8 ps-md-4 agenda-content">
+                <div class="col-xl-1 col-lg-1 col-md-12"></div>
+                <div class="col-xl-9 col-lg-8 col-md-12 agenda-content">
                     <div class="agenda-title-container">
-                        <span class="agenda-title-left">Boosting Single Page Application Security with Backend for Frontend Pattern and YARP</span>
-                        <span class="d-none d-sm-block">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
-                        <span class="agenda-title-right">Phong Nguyen</span>
-                    </div>
-                    <div class="col-md-9 col-sm-8 agenda-description">
-                        In this presentation, we will explore how to secure access tokens for single page applications (SPAs) using the Backend for Frontend (BFF) pattern in conjunction with YARP (Yet Another Reverse Proxy). We will discuss the architecture of BFF, its benefits in enhancing security, and how YARP can streamline token management and API interactions. 
+                        <span class="agenda-title-left">TBU</span>
                     </div>
                 </div>
             </div>
 
             <!-- Autogen -->
-            <div class="row g-0 agenda-item">
-                <div class="col-md-3 col-sm-4 ps-0 pe-4 agenda-timeslot">
+            <div class="row g-0 agenda-item mb-5 mb-lg-0">
+                <div class="col-xl-2 col-lg-3 col-md-12 agenda-timeslot">
                     <div class="text-centered">
                         <div class="module-border-wrap">
                             <div class="module">11:50 AM - 12:35 AM</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-9 col-sm-8 ps-md-4 agenda-content">
+                <div class="col-xl-1 col-lg-1 col-md-12"></div>
+                <div class="col-xl-9 col-lg-8 col-md-12 agenda-content">
                     <div class="agenda-title-container">
-                        <span class="agenda-title-left">Build multi-agent GenAI apps with AutoGen</span>
-                        <span class="d-none d-sm-block">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
-                        <span class="agenda-title-right"> Phi Huynh </span>
+                        <span class="agenda-title-left agenda-title-left-border mt-2">Autogen</span>
+                        <span class="agenda-title-right mt-2"> Phi Huynh </span>
                     </div>
-                    <div class="col-md-9 col-sm-8 agenda-description">
-                        AutoGen is an innovative framework from Microsoft Research designed to streamline the creation of multi-agent GenAI applications. Agents in AutoGen can communicate seamlessly, coordinate with each other, or even include humans in the loop to handle tasks ranging from simple to complex through natural conversations. With support for models like OpenAI, Mistral, Gemini, and Ollama, AutoGen simplifies integration efforts, allowing developers to focus on solving real-world problems.
-                        <br/>Let's dive into this powerful framework and discover how we can build multi-agent GenAI apps with AutoGen.
+                    <div class="col-md-12 agenda-description lines-clamp-4 mt-2">
+                        To be updated
                     </div>
                 </div>
             </div>
 
              <!-- Lucky draw and closing -->
              <div class="row g-0 agenda-item">
-                <div class="col-md-3 col-sm-4 ps-0 pe-4 agenda-timeslot">
+                <div class="col-xl-2 col-lg-3 col-md-12 agenda-timeslot">
                     <div class="text-centered">
                         <div class="module-border-wrap">
                             <div class="module">12:35 AM - 12:45 AM</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-9 col-sm-8 ps-md-4 agenda-content">
+                <div class="col-xl-1 col-lg-1 col-md-12"></div>
+                <div class="col-xl-9 col-lg-8 col-md-12 agenda-content">
                     <div class="agenda-title-container">
-                        <span class="agenda-title-left">Lucky draw and closing</span>
+                        <span class="agenda-title-left mt-2">Lucky draw and closing</span>
                     </div>
                 </div>
             </div>
@@ -288,17 +290,17 @@
                 </div>
                 <div class="row g-0 speakers-sponsor-background">
                     <div class="speakers-row ">
-                        <div class="col-md-6 col-sm-12 pe-md-5 ps-md-5 speaker-item">
+                        <div class="col-lg-6 col-sm-12 pe-md-5 ps-md-5 speaker-item">
                             <img src="./assets/img/speakers/a-thien.png" alt="Speaker" class="speaker-image" />
                             <div class="speaker-block">
                                 <p class="speaker-name">Thien Nguyen</p>
                                 <hr class="speaker-divider" />
-                                <p class="speaker-description lines-clamp-6">
-                                    Thien is Technical Manager at NashTech, a Microsoft MVP and the creator of
-                                    <a target="_blank" href="https://github.com/simplcommerce/SimplCommerce">SimplCommerce</a>. He is a
-                                    passionate developer, a mentor and a speaker. His current interests are .NET Core, Java, Azure and
-                                    Microservices
+                                <p class="speaker-description">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
                                 </p>
+                                <!-- <span class="speaker-description-link">
+                                    <a href="#">See more</a>
+                                </span> -->
                                 <div class="speaker-social">
                                     <a class="social-icon" target="_blank" href="https://www.facebook.com/thiennlq">
                                         <span alt="Speaker" class="facebook"></span>
@@ -312,70 +314,75 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-12 pe-md-5 ps-md-5 speaker-item">
+                        <div class="col-lg-6 col-sm-12 pe-md-5 ps-md-5 speaker-item">
                             <img src="./assets/img/speakers/a-phi.png" alt="Speaker" class="speaker-image" />
                             <div class="speaker-block">
                                 <p class="speaker-name">Phi Huynh</p>
                                 <hr class="speaker-divider" />
-                                <p class="speaker-description lines-clamp-6">
-                                    Phi Huynh is currently working as R&D Manager at NashTech, building new skills for the company, help
-                                    NashTech’s community up-to-date with latest technology trends (such as Blockchain, Microservices,
-                                    DevOps, Cloud & AI). A technology enthusiast has been always looking for new fun things to try and
-                                    loving to update latest technologies.
+                                <p class="speaker-description">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
                                 </p>
+                                <!-- <span class="speaker-description-link">
+                                    <a href="#">See more</a>
+                                </span> -->
                                 <div class="speaker-social">
                                     <a class="social-icon" target="_blank" href="https://www.facebook.com/trumxomcui/">
                                         <span alt="Speaker" class="facebook"></span>
                                     </a>
-                                    <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/phihuynhn/">
+                                    <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/trumhemcut/">
                                         <span alt="Speaker" class="linkedin"></span>
                                     </a>
-                                    <!--<a class="social-icon" target="_blank" href="#">
+                                    <a class="social-icon" target="_blank" href="#">
                                         <span alt="Speaker" class="github"></span>
-                                    </a>-->
+                                    </a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-12 pe-md-5 ps-md-5 speaker-item">
+                        <div class="col-lg-6 col-sm-12 pe-md-5 ps-md-5 speaker-item">
                             <img src="./assets/img/speakers/a-thang.png" alt="Speaker" class="speaker-image" />
                             <div class="speaker-block">
                                 <p class="speaker-name">Thang Chung</p>
                                 <hr class="speaker-divider" />
-                                <p class="speaker-description lines-clamp-6">
-                                    Thang is a NashTech's Technical Manager and a Microsoft MVP. He passions to work on OSS projects and mainly focuses on designing, implementing and deploying Microservices Applications as well as toolings and (F)OSS in the CNCF ecosystem. Now he focuses on WebAssembly and WASI.
+                                <p class="speaker-description">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
                                 </p>
+                                <!-- <span class="speaker-description-link">
+                                    <a href="#">See more</a>
+                                </span> -->
+
                                 <div class="speaker-social">
-                                    <!--<a class="social-icon" target="_blank" href="#">
+                                    <a class="social-icon" target="_blank" href="#">
                                         <span alt="Speaker" class="facebook"></span>
                                     </a>
                                     <a class="social-icon" target="_blank" href="#">
                                         <span alt="Speaker" class="linkedin"></span>
-                                    </a>-->
+                                    </a>
                                     <a class="social-icon" target="_blank" href="https://github.com/thangchung">
                                         <span alt="Speaker" class="github"></span>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-12 pe-md-5 ps-md-5 speaker-item">
+                        <div class="col-lg-6 col-sm-12 pe-md-5 ps-md-5 speaker-item">
                             <img src="./assets/img/speakers/a-phong.png" alt="Speaker" class="speaker-image" />
 
                             <div class="speaker-block">
                                 <p class="speaker-name">Phong Nguyen</p>
                                 <hr class="speaker-divider" />
-                                <p class="speaker-description lines-clamp-6">
-                                    Phong is currently working as Technical Architect at NashTech, has over 12+ years of experience in 
-                                    designing, building and integrating Enterprise Applications.
-                                    He is interested in Performance Optimization, Security, Code Analysis, Architecture and Cloud Computing.
+                                <p class="speaker-description">
+                                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
                                 </p>
+                                <!-- <span class="speaker-description-link">
+                                    <a href="#">See more</a>
+                                </span> -->
                                 <div class="speaker-social">
-                                    <!-- <a class="social-icon" target="_blank" href="https://github.com/phongnguyend">
+                                    <a class="social-icon" target="_blank" href="#">
                                         <span alt="Speaker" class="facebook"></span>
-                                    </a>-->
-                                    <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/phongnguyendoan/">
+                                    </a>
+                                    <a class="social-icon" target="_blank" href="#">
                                         <span alt="Speaker" class="linkedin"></span>
                                     </a>
-                                    <a class="social-icon" target="_blank" href="https://github.com/phongnguyend">
+                                    <a class="social-icon" target="_blank" href="#">
                                         <span alt="Speaker" class="github"></span>
                                     </a>
                                 </div>
