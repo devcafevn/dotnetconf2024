@@ -2,412 +2,449 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DEV Cafe - .NET Conf 2024 Vietnam</title>
-    <!-- Bootstrap 5 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/styles.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DEV Cafe - .NET Conf 2024 Vietnam</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/styles.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet" />
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="50" tabindex="0">
-    <!-- Navbar -->
-    <nav id="navbar" class="navbar navbar-dark navbar-expand-lg fixed-top">
-        <div class="container-fluid g-0">
-            <a class="navbar-brand" href="#"><img class="main-logo" src="./assets/svg/main-logo.svg" /></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" class="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active nav-text" aria-current="page" href="#about-section">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-text" href="#agenda-section">Agenda</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-text" href="#speakers-section">Speakers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-text" href="#sponsors-section">Sponsors</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-text" href="#contact-section">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <img src="./assets/img/about-bg.jpg" alt="Landing background" class="landing-background" />
-    <div class="container-fluid g-0 landing-section">
-        <img src="./assets/svg/big-title.svg" alt=".NET Conf 2024 Vietnam" class="big-title" />
-        <div class="when-info">
-            <img src="./assets/svg/calendar.svg" alt="calendar-icon" class="info-icons" />
-            <div class="info-text">23 November 2024 | 09:00 AM - 12:30 PM</div>
-        </div>
-        <div class="where-info">
-            <img src="./assets/svg/location.svg" alt="location-icon" class="info-icons" />
-            <div class="info-text">
-                <div>Vincom Center Dong Khoi - 15<sup>th</sup> Floor</div>
-                <div style="font-weight: lighter;">45A Ly Tu Trong Street, Ben Nghe Ward, District 1, HCMC</div>
-            </div>
-        </div>
-        <div class="when-info">
-            <img src="./assets/svg/ms-team-icon.svg" alt="ms-team-icon" class="info-icons" />
-            <div class="info-text">Online via Microsoft Teams</div>
-            <!--<a class="btn btn-info ms-teams-btn-primary join-online-text" href="#">Join Online</a>-->
-        </div>
-        <a href="https://forms.office.com/r/aSZA2WLb4C" target="_blank"><img src="./assets/svg/register-now-btn.svg" alt="Register Now" class="register-now-btn" /></a>
-    </div>
-    <div class="countdown-background">
-        <div class="countdown-container">
-            <div class="dummy-space-countdown"></div>
-            <img src="./assets/svg/count-down-to-event.svg" alt="Count down to event" class="count-down-to-event" />
-            <div class="count-down-clock"></div>
-            <div class="dummy-space-countdown"></div>
-        </div>
-        <div class="countdown-container"></div>
-    </div>
-    <!-- Sections -->
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar navbar-dark navbar-expand-lg fixed-top">
     <div class="container-fluid g-0">
-        <!-- About -->
-        <div id="about-section" class="row content-section content-padding about-section g-0">
-            <div class="row section-title">
-                <img src="./assets/svg/about-section-title.svg" alt="About section title" class="about-section-title"/>
-            </div>
+      <a class="navbar-brand" href="#"><img class="main-logo" src="./assets/svg/main-logo.svg" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" class="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active nav-text" aria-current="page" href="#about-section">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-text" href="#agenda-section">Agenda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-text" href="#speakers-section">Speakers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-text" href="#sponsors-section">Sponsors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-text" href="#contact-section">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-            <div class="row g-0">
-                <div class="col-md-4 col-sm-12 about-items">
-                    <img src="./assets/svg/deep-dive-section.svg" alt="Deep dive sections"
-                        class="deepdive-item-icon" />
-                    <p class="about-item-title">Deep Dive Sessions</p>
-                    <p class="about-item-text">
-                        Both in-person and virtual event with deep dive sessions about .NET 9.0 and its ecosystem: C# 13, ASP.NET Core 9, Entity Framework Core, Blazor, AI...
-                    </p>
-                </div>
-                <div class="col-md-4 col-sm-12 about-items">
-                    <img src="./assets/svg/discuss-with-expert.svg" alt="Discuss with experts"
-                        class="about-item-icon" />
-                    <p class="about-item-title">Discuss with Experts</p>
-                    <p class="about-item-text">
-                        Have questions, need to discuss your technical issues, or
-                        looking for some advice, do attend to speak to the experts
-                    </p>
-                </div>
-                <div class="col-md-4 col-sm-12 about-items">
-                    <img src="./assets/svg/free-registration.svg" alt="Free registration" class="about-item-icon" />
-                    <p class="about-item-title">Free registration</p>
-                    <p class="about-item-text">
-                        Entry to this event is totally FREE!
-                    </p>
-                </div>
-            </div>
+  <img src="./assets/img/about-bg.jpg" alt="Landing background" class="landing-background" />
+  <div class="container-fluid g-0 landing-section">
+    <img src="./assets/svg/big-title.svg" alt=".NET Conf 2024 Vietnam" class="big-title" />
+    <div class="when-info">
+      <img src="./assets/svg/calendar.svg" alt="calendar-icon" class="info-icons" />
+      <div class="info-text">23 November 2024 | 09:00 AM - 12:30 PM</div>
+    </div>
+    <div class="where-info">
+      <img src="./assets/svg/location.svg" alt="location-icon" class="info-icons" />
+      <div class="info-text">
+        <div>Vincom Center Dong Khoi - 15<sup>th</sup> Floor</div>
+        <div style="font-weight: lighter">
+          45A Ly Tu Trong Street, Ben Nghe Ward, District 1, HCMC
         </div>
-        <!-- Gifts -->
-        <div class="row g-0 content-section gift-section">
-            <div class="row g-0 background-white section-title">
-                <img src="./assets/svg/gift-section-title.svg" alt="Gift section title" class="gift-section-title" />
-            </div>
+      </div>
+    </div>
+    <div class="when-info">
+      <img src="./assets/svg/ms-team-icon.svg" alt="ms-team-icon" class="info-icons" />
+      <div class="info-text">Online via Microsoft Teams</div>
+      <!--<a class="btn btn-info ms-teams-btn-primary join-online-text" href="#">Join Online</a>-->
+    </div>
+    <a href="https://forms.office.com/r/aSZA2WLb4C" target="_blank"><img src="./assets/svg/register-now-btn.svg"
+        alt="Register Now" class="register-now-btn" /></a>
+  </div>
+  <div class="countdown-background">
+    <div class="countdown-container">
+      <div class="dummy-space-countdown"></div>
+      <img src="./assets/svg/count-down-to-event.svg" alt="Count down to event" class="count-down-to-event" />
+      <div class="count-down-clock"></div>
+      <div class="dummy-space-countdown"></div>
+    </div>
+    <div class="countdown-container"></div>
+  </div>
+  <!-- Sections -->
+  <div class="container-fluid g-0">
+    <!-- About -->
+    <div id="about-section" class="row content-section content-padding about-section g-0">
+      <div class="row section-title">
+        <img src="./assets/svg/about-section-title.svg" alt="About section title" class="about-section-title" />
+      </div>
 
-            <div class="row g-0 content-padding">
-                <div class="col-md-4 col-sm-12 gift-item">
-                    <img src="./assets/img/gifts/ao-thun.png" alt="Ao thun" class="img-fluid gift-picture" />
-                </div>
-                <div class="col-md-4 col-sm-12 gift-item">
-                    <img src="./assets/img/gifts/balo.png" alt="Balo" class="img-fluid gift-picture" />
-                </div>
-                <div class="col-md-4 col-sm-12 gift-item">
-                    <img src="./assets/img/gifts/tai-nghe.png" alt="Tai nghe" class="img-fluid gift-picture" />
-                </div>
-            </div>
+      <div class="row g-0">
+        <div class="col-md-4 col-sm-12 about-items">
+          <img src="./assets/svg/deep-dive-section.svg" alt="Deep dive sections" class="deepdive-item-icon" />
+          <p class="about-item-title">Deep Dive Sessions</p>
+          <p class="about-item-text">
+            Both in-person and virtual event with deep dive sessions about
+            .NET 9.0 and its ecosystem: C# 13, ASP.NET Core 9, Entity
+            Framework Core, Blazor, AI...
+          </p>
         </div>
-        <!-- Agenda -->
-        <div id="agenda-section" class="row content-section content-padding agenda-section">
-            <div class="row section-title">
-                <img src="./assets/svg/agenda-section-title.svg" alt="Agenda section title" class="agenda-section-title" />
-            </div>
-            <!-- Check-in -->
-            <div class="row g-0 agenda-item">
-                <div class="col-md-3 col-sm-4 ps-0 pe-4 agenda-timeslot">
-                    <div class="text-centered">
-                        <div class="module-border-wrap">
-                            <div class="module">08:30 AM - 09:00 AM</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-9 col-sm-8 ps-md-4 agenda-content">
-                    <div class="agenda-title-container">
-                        <span class="agenda-title-left">Check-in</span>
-                    </div>
-                </div>
-            </div>
-            <!-- Opening -->
-            <div class="row g-0 agenda-item">
-                <div class="col-md-3 col-sm-4 ps-0 pe-4 agenda-timeslot">
-                    <div class="text-centered">
-                        <div class="module-border-wrap">
-                            <div class="module">09:00 AM - 09:10 AM</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-9 col-sm-8 ps-md-4 agenda-content">
-                    <div class="agenda-title-container">
-                        <span class="agenda-title-left">Opening</span>
-                    </div>
-                </div>
-            </div>
-            <!-- Gain a deeper understanding of ASP.NET Core by exploring its source code    |   Thien Nguyen -->
-            <div class="row g-0 agenda-item">
-                <div class="col-md-3 col-sm-4 ps-0 pe-4 agenda-timeslot">
-                    <div class="text-centered">
-                        <div class="module-border-wrap">
-                            <div class="module">09:10 AM - 09:55 AM</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-9 col-sm-8 ps-md-4 agenda-content">
-                    <div class="agenda-title-container">
-                        <span class="agenda-title-left">Gain a deeper understanding of ASP.NET Core by exploring its source code</span>
-                        <span class="d-none d-sm-block">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
-                        <span class="agenda-title-right">Thien Nguyen</span>
-                    </div>
-                    <div class="col-md-9 col-sm-8 agenda-description">
-                        By exploring the source code of asp.net core, you can uncover its architecture principles and design patterns that underpin its functionality. In this session, I will work you through important parts of asp.net core source code like routing, how aspnet core process requests, how authentication, authorization work under the hood.
-                    </div>
-                </div>
-            </div>
-            <!-- Simplify the development of distributed applications with .NET Aspire 9   |   Thang Chung -->
-            <div class="row g-0 agenda-item">
-                <div class="col-md-3 col-sm-4 ps-0 pe-4 agenda-timeslot">
-                    <div class="text-centered">
-                        <div class="module-border-wrap">
-                            <div class="module">10:00 AM - 10:45 AM</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-9 col-sm-8 ps-md-4 agenda-content">
-                    <div class="agenda-title-container">
-                        <span class="agenda-title-left">Simplify the development of distributed applications with .NET Aspire 9</span>
-                        <span class="d-none d-sm-block">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
-                        <span class="agenda-title-right">Thang Chung</span>
-                    </div>
-                    <div class="col-md-9 col-sm-8 agenda-description">
-                        This presentation will introduce the new features in .NET Aspire 9 and demonstrate how they can simplify the development and testing of distributed applications. By the end of the presentation, we will showcase distributed apps within the coffee shop business domain to illustrate all the capabilities of .NET Aspire 9.
-                    </div>
-                </div>
-            </div>
-            <!-- Tea break -->
-            <div class="row g-0 agenda-item">
-                <div class="col-md-3 col-sm-4 ps-0 pe-4 agenda-timeslot">
-                    <div class="text-centered">
-                        <div class="module-border-wrap">
-                            <div class="module">10:45 AM - 11:00 AM</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-9 col-sm-8 ps-md-4 agenda-content">
-                    <div class="agenda-title-container">
-                        <span class="agenda-title-left">Tea break</span>
-                    </div>
-                    <div class="agenda-description lines-clamp-4"></div>
-                </div>
-            </div>
-
-            <!-- TBU -->
-            <div class="row g-0 agenda-item">
-                <div class="col-md-3 col-sm-4 ps-0 pe-4 agenda-timeslot">
-                    <div class="text-centered">
-                        <div class="module-border-wrap">
-                            <div class="module">11:00 AM - 11:45 AM</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-9 col-sm-8 ps-md-4 agenda-content">
-                    <div class="agenda-title-container">
-                        <span class="agenda-title-left">Boosting Single Page Application Security with Backend for Frontend Pattern and YARP</span>
-                        <span class="d-none d-sm-block">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
-                        <span class="agenda-title-right">Phong Nguyen</span>
-                    </div>
-                    <div class="col-md-9 col-sm-8 agenda-description">
-                        In this presentation, we will explore how to secure access tokens for single page applications (SPAs) using the Backend for Frontend (BFF) pattern in conjunction with YARP (Yet Another Reverse Proxy). We will discuss the architecture of BFF, its benefits in enhancing security, and how YARP can streamline token management and API interactions. 
-                    </div>
-                </div>
-            </div>
-
-            <!-- Autogen -->
-            <div class="row g-0 agenda-item">
-                <div class="col-md-3 col-sm-4 ps-0 pe-4 agenda-timeslot">
-                    <div class="text-centered">
-                        <div class="module-border-wrap">
-                            <div class="module">11:50 AM - 12:35 AM</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-9 col-sm-8 ps-md-4 agenda-content">
-                    <div class="agenda-title-container">
-                        <span class="agenda-title-left">Build multi-agent GenAI apps with AutoGen</span>
-                        <span class="d-none d-sm-block">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
-                        <span class="agenda-title-right"> Phi Huynh </span>
-                    </div>
-                    <div class="col-md-9 col-sm-8 agenda-description">
-                        AutoGen is an innovative framework from Microsoft Research designed to streamline the creation of multi-agent GenAI applications. Agents in AutoGen can communicate seamlessly, coordinate with each other, or even include humans in the loop to handle tasks ranging from simple to complex through natural conversations. With support for models like OpenAI, Mistral, Gemini, and Ollama, AutoGen simplifies integration efforts, allowing developers to focus on solving real-world problems.
-                        <br/>Let's dive into this powerful framework and discover how we can build multi-agent GenAI apps with AutoGen.
-                    </div>
-                </div>
-            </div>
-
-             <!-- Lucky draw and closing -->
-             <div class="row g-0 agenda-item">
-                <div class="col-md-3 col-sm-4 ps-0 pe-4 agenda-timeslot">
-                    <div class="text-centered">
-                        <div class="module-border-wrap">
-                            <div class="module">12:35 AM - 12:45 AM</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-9 col-sm-8 ps-md-4 agenda-content">
-                    <div class="agenda-title-container">
-                        <span class="agenda-title-left">Lucky draw and closing</span>
-                    </div>
-                </div>
-            </div>
+        <div class="col-md-4 col-sm-12 about-items">
+          <img src="./assets/svg/discuss-with-expert.svg" alt="Discuss with experts" class="about-item-icon" />
+          <p class="about-item-title">Discuss with Experts</p>
+          <p class="about-item-text">
+            Have questions, need to discuss your technical issues, or looking
+            for some advice, do attend to speak to the experts
+          </p>
         </div>
-
-        <!-- Speakers and Sponsors -->
-        <div class="row g-0 content-section">
-            <!-- Speakers -->
-            <div id="speakers-section" class="row g-0 speakers-section">
-                <div class="row g-0 section-title">
-                    <img src="./assets/svg/speakers-section-title.svg" alt="Speakers section title" class="speakers-section-title" />
-                </div>
-                <div class="row g-0 speakers-sponsor-background">
-                    <div class="speakers-row ">
-                        <div class="col-md-6 col-sm-12 pe-md-5 ps-md-5 speaker-item">
-                            <img src="./assets/img/speakers/a-thien.png" alt="Speaker" class="speaker-image" />
-                            <div class="speaker-block">
-                                <p class="speaker-name">Thien Nguyen</p>
-                                <hr class="speaker-divider" />
-                                <p class="speaker-description lines-clamp-6">
-                                    Thien is Technical Manager at NashTech, a Microsoft MVP and the creator of
-                                    <a target="_blank" href="https://github.com/simplcommerce/SimplCommerce">SimplCommerce</a>. He is a
-                                    passionate developer, a mentor and a speaker. His current interests are .NET Core, Java, Azure and
-                                    Microservices
-                                </p>
-                                <div class="speaker-social">
-                                    <a class="social-icon" target="_blank" href="https://www.facebook.com/thiennlq">
-                                        <span alt="Speaker" class="facebook"></span>
-                                    </a>
-                                    <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/thiennn">
-                                        <span alt="Speaker" class="linkedin"></span>
-                                    </a>
-                                    <a class="social-icon" target="_blank" href="https://github.com/thiennn">
-                                        <span alt="Speaker" class="github"></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12 pe-md-5 ps-md-5 speaker-item">
-                            <img src="./assets/img/speakers/a-phi.png" alt="Speaker" class="speaker-image" />
-                            <div class="speaker-block">
-                                <p class="speaker-name">Phi Huynh</p>
-                                <hr class="speaker-divider" />
-                                <p class="speaker-description lines-clamp-6">
-                                    Phi Huynh is currently working as R&D Manager at NashTech, building new skills for the company, help
-                                    NashTech’s community up-to-date with latest technology trends (such as Blockchain, Microservices,
-                                    DevOps, Cloud & AI). A technology enthusiast has been always looking for new fun things to try and
-                                    loving to update latest technologies.
-                                </p>
-                                <div class="speaker-social">
-                                    <a class="social-icon" target="_blank" href="https://www.facebook.com/trumxomcui/">
-                                        <span alt="Speaker" class="facebook"></span>
-                                    </a>
-                                    <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/phihuynhn/">
-                                        <span alt="Speaker" class="linkedin"></span>
-                                    </a>
-                                    <!--<a class="social-icon" target="_blank" href="#">
-                                        <span alt="Speaker" class="github"></span>
-                                    </a>-->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12 pe-md-5 ps-md-5 speaker-item">
-                            <img src="./assets/img/speakers/a-thang.png" alt="Speaker" class="speaker-image" />
-                            <div class="speaker-block">
-                                <p class="speaker-name">Thang Chung</p>
-                                <hr class="speaker-divider" />
-                                <p class="speaker-description lines-clamp-6">
-                                    Thang is a NashTech's Technical Manager and a Microsoft MVP. He passions to work on OSS projects and mainly focuses on designing, implementing and deploying Microservices Applications as well as toolings and (F)OSS in the CNCF ecosystem. Now he focuses on WebAssembly and WASI.
-                                </p>
-                                <div class="speaker-social">
-                                    <!--<a class="social-icon" target="_blank" href="#">
-                                        <span alt="Speaker" class="facebook"></span>
-                                    </a>
-                                    <a class="social-icon" target="_blank" href="#">
-                                        <span alt="Speaker" class="linkedin"></span>
-                                    </a>-->
-                                    <a class="social-icon" target="_blank" href="https://github.com/thangchung">
-                                        <span alt="Speaker" class="github"></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12 pe-md-5 ps-md-5 speaker-item">
-                            <img src="./assets/img/speakers/a-phong.png" alt="Speaker" class="speaker-image" />
-
-                            <div class="speaker-block">
-                                <p class="speaker-name">Phong Nguyen</p>
-                                <hr class="speaker-divider" />
-                                <p class="speaker-description lines-clamp-6">
-                                    Phong is currently working as Technical Architect at NashTech, has over 12+ years of experience in 
-                                    designing, building and integrating Enterprise Applications.
-                                    He is interested in Performance Optimization, Security, Code Analysis, Architecture and Cloud Computing.
-                                </p>
-                                <div class="speaker-social">
-                                    <!-- <a class="social-icon" target="_blank" href="https://github.com/phongnguyend">
-                                        <span alt="Speaker" class="facebook"></span>
-                                    </a>-->
-                                    <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/phongnguyendoan/">
-                                        <span alt="Speaker" class="linkedin"></span>
-                                    </a>
-                                    <a class="social-icon" target="_blank" href="https://github.com/phongnguyend">
-                                        <span alt="Speaker" class="github"></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-12 speakers-sponsors-divider"></div>
-                    </div>
-
-                    <div id="sponsors-section" class="col-12 sponsors-section">
-                        <div class="text-centered our-sponsors-title">Our sponsors</div>
-                        <div class="sponsors-icon-group">
-                            <img src="./assets/img/nashtech-icon.png" alt="NashTech" class="nt-sponsor-icon pe-2" />
-                            <img src="./assets/img/microsoft-icon.png" alt="Microsoft" class="ms-sponsor-icon ps-2" />
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+        <div class="col-md-4 col-sm-12 about-items">
+          <img src="./assets/svg/free-registration.svg" alt="Free registration" class="about-item-icon" />
+          <p class="about-item-title">Free registration</p>
+          <p class="about-item-text">Entry to this event is totally FREE!</p>
         </div>
-        <!-- Contact Us -->
-        <div id="contact-section" class="row g-0 content-section content-centered contact-section">
-            <div class="col-6 pe-md-5 pe-2 text-right border-right">
-                <img src="./assets/svg/about-us-text.svg" alt="About us" class="about-us-text pe-md-2 pe-1" />
-                <img src="./assets/img/fb-icon.png" alt="FB Icon" class="contact-section-icon pe-md-2 pe-1" />
-                <img src="./assets/svg/website-icon.svg" alt="Website Icon" class="website-icon pe-md-2 pe-1" />
-            </div>
-            <div class="col-6 ps-md-5 ps-2 text-left">
-                <img src="./assets/svg/contact-us-text.svg" alt="Contact us" class="contact-us-text ps-md-2 ps-1" />
-                <img src="./assets/img/email-icon.png" alt="Email Icon" class="contact-section-icon ps-md-2 ps-1" />
-            </div>
+      </div>
+    </div>
+    <!-- Gifts -->
+    <div class="row g-0 content-section gift-section">
+      <div class="row g-0 background-white section-title">
+        <img src="./assets/svg/gift-section-title.svg" alt="Gift section title" class="gift-section-title" />
+      </div>
+
+      <div class="row g-0 gift-section-padding">
+        <div class="col-md-4 col-sm-12 gift-item">
+          <img src="./assets/img/gifts/ao-thun.png" alt="Ao thun" class="img-fluid gift-picture" />
         </div>
+        <div class="col-md-4 col-sm-12 gift-item">
+          <img src="./assets/img/gifts/balo.png" alt="Balo" class="img-fluid gift-picture" />
+        </div>
+        <div class="col-md-4 col-sm-12 gift-item">
+          <img src="./assets/img/gifts/tai-nghe.png" alt="Tai nghe" class="img-fluid gift-picture" />
+        </div>
+      </div>
+    </div>
+    <!-- Agenda -->
+    <div id="agenda-section" class="row content-section content-padding agenda-section">
+      <div class="row section-title">
+        <img src="./assets/svg/agenda-section-title.svg" alt="Agenda section title" class="agenda-section-title" />
+      </div>
+      <!-- Check-in -->
+      <div class="row g-0 agenda-item mb-5 mb-lg-0">
+        <div class="col-xl-2 col-lg-3 col-md-12 agenda-timeslot">
+          <div class="text-centered">
+            <div class="module-border-wrap">
+              <div class="module">08:30 AM - 09:00 AM</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-1 col-lg-1 col-md-12"></div>
+        <div class="col-xl-9 col-lg-8 col-md-12 agenda-content">
+          <div class="agenda-title-container">
+            <span class="agenda-title-left mt-2">Check-in</span>
+          </div>
+        </div>
+      </div>
+      <!-- Opening -->
+      <div class="row g-0 agenda-item mb-5 mb-lg-0">
+        <div class="col-xl-2 col-lg-3 col-md-12 agenda-timeslot">
+          <div class="text-centered">
+            <div class="module-border-wrap">
+              <div class="module">09:00 AM - 09:10 AM</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-1 col-lg-1 col-md-12"></div>
+        <div class="col-xl-9 col-lg-8 col-md-12 agenda-content">
+          <div class="agenda-title-container">
+            <span class="agenda-title-left mt-2">Opening</span>
+          </div>
+        </div>
+      </div>
+      <!-- Gain a deeper understanding of ASP.NET Core by exploring its source code    |   Thien Nguyen -->
+      <div class="row g-0 agenda-item mb-5 mb-lg-0">
+        <div class="col-xl-2 col-lg-3 col-md-12 agenda-timeslot">
+          <div class="text-centered">
+            <div class="module-border-wrap">
+              <div class="module">09:10 AM - 09:55 AM</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-1 col-lg-1 col-md-12"></div>
+        <div class="col-xl-9 col-lg-8 col-md-12 agenda-content">
+          <div class="agenda-title-container">
+            <span class="agenda-title-left agenda-title-left-border mt-2">Gain a deeper understanding of ASP.NET Core by
+              exploring its
+              source code</span>
+            <span class="agenda-title-right mt-2">Thien Nguyen</span>
+          </div>
+          <div class="col-md-12 agenda-description mt-2">
+            By exploring the source code of asp.net core, you can uncover its
+            architecture principles and design patterns that underpin its
+            functionality. In this session, I will work you through important
+            parts of asp.net core source code like routing, how aspnet core
+            process requests, how authentication, authorization work under the
+            hood.
+          </div>
+        </div>
+      </div>
+      <!-- Simplify the development of distributed applications with .NET Aspire 9   |   Thang Chung -->
+      <div class="row g-0 agenda-item mb-5 mb-lg-0">
+        <div class="col-xl-2 col-lg-3 col-md-12 agenda-timeslot">
+          <div class="text-centered">
+            <div class="module-border-wrap">
+              <div class="module">10:00 AM - 10:45 AM</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-1 col-lg-1 col-md-12"></div>
+        <div class="col-xl-9 col-lg-8 col-md-12 agenda-content">
+          <div class="agenda-title-container">
+            <span class="agenda-title-left agenda-title-left-border mt-2">Simplify the development of distributed
+              applications with .NET
+              Aspire 9</span>
+            <span class="agenda-title-right mt-2">Thang Chung</span>
+          </div>
+          <div class="col-md-12 agenda-description mt-2">
+            This presentation will introduce the new features in .NET Aspire 9
+            and demonstrate how they can simplify the development and testing
+            of distributed applications. By the end of the presentation, we
+            will showcase distributed apps within the coffee shop business
+            domain to illustrate all the capabilities of .NET Aspire 9.
+          </div>
+        </div>
+      </div>
+      <!-- Tea break -->
+      <div class="row g-0 agenda-item mb-5 mb-lg-0">
+        <div class="col-xl-2 col-lg-3 col-md-12 agenda-timeslot">
+          <div class="text-centered">
+            <div class="module-border-wrap">
+              <div class="module">10:45 AM - 11:00 AM</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-1 col-lg-1 col-md-12"></div>
+        <div class="col-xl-9 col-lg-8 col-md-12 agenda-content">
+          <div class="agenda-title-container">
+            <span class="agenda-title-left mt-2">Tea break</span>
+          </div>
+          <div class="agenda-description lines-clamp-4"></div>
+        </div>
+      </div>
+
+      <!-- Boosting Single Page Application Security with Backend for Frontend Pattern and YARP   |   Phong Nguyen -->
+      <div class="row g-0 agenda-item mb-5 mb-lg-0">
+        <div class="col-xl-2 col-lg-3 col-md-12 agenda-timeslot">
+          <div class="text-centered">
+            <div class="module-border-wrap">
+              <div class="module">11:00 AM - 11:45 AM</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-1 col-lg-1 col-md-12"></div>
+        <div class="col-xl-9 col-lg-8 col-md-12 agenda-content">
+          <div class="agenda-title-container">
+            <span class="agenda-title-left agenda-title-left-border mt-2">Boosting Single Page Application Security with
+              Backend for Frontend Pattern and YARP</span>
+            <span class="agenda-title-right mt-2">Phong Nguyen</span>
+          </div>
+          <div class="col-md-12 agenda-description mt-2">
+            In this presentation, we will explore how to secure access tokens for single page applications (SPAs) using
+            the Backend for Frontend (BFF) pattern in conjunction with YARP (Yet Another Reverse Proxy). We will discuss
+            the architecture of BFF, its benefits in enhancing security, and how YARP can streamline token management
+            and API interactions.
+          </div>
+        </div>
+      </div>
+
+      <!-- Autogen -->
+      <div class="row g-0 agenda-item mb-5 mb-lg-0">
+        <div class="col-xl-2 col-lg-3 col-md-12 agenda-timeslot">
+          <div class="text-centered">
+            <div class="module-border-wrap">
+              <div class="module">11:50 AM - 12:35 AM</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-1 col-lg-1 col-md-12"></div>
+        <div class="col-xl-9 col-lg-8 col-md-12 agenda-content">
+          <div class="agenda-title-container">
+            <span class="agenda-title-left agenda-title-left-border mt-2">Build multi-agent GenAI apps with
+              AutoGen</span>
+            <span class="agenda-title-right mt-2"> Phi Huynh </span>
+          </div>
+          <div class="col-md-12 agenda-description mt-2">
+            AutoGen is an innovative framework from Microsoft Research
+            designed to streamline the creation of multi-agent GenAI
+            applications. Agents in AutoGen can communicate seamlessly,
+            coordinate with each other, or even include humans in the loop to
+            handle tasks ranging from simple to complex through natural
+            conversations. With support for models like OpenAI, Mistral,
+            Gemini, and Ollama, AutoGen simplifies integration efforts,
+            allowing developers to focus on solving real-world problems. To be
+            updated
+            <br />Let's dive into this powerful framework and discover how we
+            can build multi-agent GenAI apps with AutoGen.
+          </div>
+        </div>
+      </div>
+
+      <!-- Lucky draw and closing -->
+      <div class="row g-0 agenda-item">
+        <div class="col-xl-2 col-lg-3 col-md-12 agenda-timeslot">
+          <div class="text-centered">
+            <div class="module-border-wrap">
+              <div class="module">12:35 AM - 12:45 AM</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-1 col-lg-1 col-md-12"></div>
+        <div class="col-xl-9 col-lg-8 col-md-12 agenda-content">
+          <div class="agenda-title-container">
+            <span class="agenda-title-left mt-2">Lucky draw and closing</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Speakers and Sponsors -->
+    <div class="row g-0 content-section">
+      <!-- Speakers and Sponsors -->
+      <div class="row g-0 content-section">
+        <!-- Speakers -->
+        <div id="speakers-section" class="row g-0 speakers-section">
+          <div class="row g-0 section-title">
+            <img src="./assets/svg/speakers-section-title.svg" alt="Speakers section title"
+              class="speakers-section-title" />
+          </div>
+          <div class="row g-0 speakers-sponsor-background">
+            <div class="speakers-row ">
+              <div class="col-lg-6 col-sm-12 pe-md-5 ps-md-5 speaker-item">
+                <img src="./assets/img/speakers/a-thien.png" alt="Speaker" class="speaker-image" />
+                <div class="speaker-block">
+                  <p class="speaker-name">Thien Nguyen</p>
+                  <hr class="speaker-divider" />
+                  <p class="speaker-description">
+                    Thien is Technical Manager at NashTech, a Microsoft MVP and the creator of <a target="_blank"
+                      href="https://github.com/simplcommerce/SimplCommerce">SimplCommerce</a>. He is a passionate
+                    developer, a mentor and a speaker. His current interests are .NET Core, Java, Azure and
+                    Microservices
+                  </p>
+                  <div class="speaker-social">
+                    <a class="social-icon" target="_blank" href="https://www.facebook.com/thiennlq">
+                      <span alt="Speaker" class="facebook"></span>
+                    </a>
+                    <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/thiennn">
+                      <span alt="Speaker" class="linkedin"></span>
+                    </a>
+                    <a class="social-icon" target="_blank" href="https://github.com/thiennn">
+                      <span alt="Speaker" class="github"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-12 pe-md-5 ps-md-5 speaker-item">
+                <img src="./assets/img/speakers/a-phi.png" alt="Speaker" class="speaker-image" />
+                <div class="speaker-block">
+                  <p class="speaker-name">Phi Huynh</p>
+                  <hr class="speaker-divider" />
+                  <p class="speaker-description">
+                    Phi Huynh is currently working as R&D Manager at NashTech, building new skills for the company, help
+                    NashTech’s community up-to-date with latest technology trends (such as Blockchain, Microservices,
+                    DevOps, Cloud & AI). A technology enthusiast has been always looking for new fun things to try and
+                    loving to update latest technologies.
+                  </p>
+                  <div class="speaker-social">
+                    <a class="social-icon" target="_blank" href="https://www.facebook.com/trumxomcui/">
+                      <span alt="Speaker" class="facebook"></span>
+                    </a>
+                    <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/phihuynhn/">
+                      <span alt="Speaker" class="linkedin"></span>
+                    </a>
+                    <!-- <a class="social-icon" target="_blank" href="#">
+                                      <span alt="Speaker" class="github"></span>
+                                  </a> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-12 pe-md-5 ps-md-5 speaker-item">
+                <img src="./assets/img/speakers/a-thang.png" alt="Speaker" class="speaker-image" />
+                <div class="speaker-block">
+                  <p class="speaker-name">Thang Chung</p>
+                  <hr class="speaker-divider" />
+                  <p class="speaker-description">
+                    Thang is a NashTech's Technical Manager and a Microsoft MVP. He passions to work on OSS projects and
+                    mainly focuses on designing, implementing and deploying Microservices Applications as well as
+                    toolings and (F)OSS in the CNCF ecosystem. Now he focuses on WebAssembly and WASI.
+                  </p>
+                  <div class="speaker-social">
+                    <!-- <a class="social-icon" target="_blank" href="#">
+                                      <span alt="Speaker" class="facebook"></span>
+                                  </a>
+                                  <a class="social-icon" target="_blank" href="#">
+                                      <span alt="Speaker" class="linkedin"></span>
+                                  </a> -->
+                    <a class="social-icon" target="_blank" href="https://github.com/thangchung">
+                      <span alt="Speaker" class="github"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-12 pe-md-5 ps-md-5 speaker-item">
+                <img src="./assets/img/speakers/a-thang.png" alt="Speaker" class="speaker-image" />
+                <div class="speaker-block">
+                  <p class="speaker-name">Phong Nguyen</p>
+                  <hr class="speaker-divider" />
+                  <p class="speaker-description">
+                    Phong is currently working as Technical Architect at NashTech, has over 12+ years of experience in
+                    designing, building and integrating Enterprise Applications. He is interested in Performance
+                    Optimization, Security, Code Analysis, Architecture and Cloud Computing.
+                  </p>
+                  <div class="speaker-social">
+                    <!-- <a class="social-icon" target="_blank" href="#">
+                                    <span alt="Speaker" class="facebook"></span>
+                                </a> -->
+                    <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/phongnguyendoan/">
+                      <span alt="Speaker" class="linkedin"></span>
+                    </a>
+                    <a class="social-icon" target="_blank" href="https://github.com/phongnguyend">
+                      <span alt="Speaker" class="github"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 speakers-sponsors-divider"></div>
+            </div>
+
+            <div id="sponsors-section" class="col-12 sponsors-section">
+              <div class="text-centered our-sponsors-title">Our sponsors</div>
+              <div class="sponsors-icon-group">
+                <img src="./assets/img/nashtech-icon.png" alt="NashTech" class="nt-sponsor-icon pe-2" />
+                <img src="./assets/img/microsoft-icon.png" alt="Microsoft" class="ms-sponsor-icon ps-2" />
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- Contact Us -->
+      <div id="contact-section" class="row g-0 content-section content-centered contact-section">
+        <div class="col-6 pe-md-5 pe-2 text-right border-right">
+          <img src="./assets/svg/about-us-text.svg" alt="About us" class="about-us-text pe-md-2 pe-1" />
+          <a target="_blank" href="https://www.facebook.com/devcafevn"><img src="./assets/img/fb-icon.png" alt="FB Icon" class="contact-section-icon pe-md-2 pe-1" /></a>
+          <a target="_blank" href="https://www.nashtechglobal.com/"><img src="./assets/svg/website-icon.svg" alt="Website Icon" class="website-icon pe-md-2 pe-1" /></a>
+        </div>
+        <div class="col-6 ps-md-5 ps-2 text-left">
+          <img src="./assets/svg/contact-us-text.svg" alt="Contact us" class="contact-us-text ps-md-2 ps-1" />
+          <a target="_blank" href="mailto:NTDevCafe@Nashtechglobal.com"><img src="./assets/img/email-icon.png" alt="Email Icon" class="contact-section-icon ps-md-2 ps-1" /></a>
+        </div>
+      </div>
     </div>
     <!-- Bootstrap 5 JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -418,18 +455,18 @@
     <script src="js/jquery/dist/jquery.min.js"></script>
     <script src="js/jquery.countdown.min.js" asp-append-version="true"></script>
     <script>
-        $(document).ready(function () {
-            $(".count-down-clock").countdown(
-                "2024/11/23 08:30:00",
-                function (event) {
-                    $(this).html(
-                        event.strftime(
-                            '<div class="single-block-digit"><div class="gradient-text">%D</div><p class="time-unit-text">Days</p></div><div class="single-block-digit"><div class="gradient-text">%H</div><p class="time-unit-text">Hours</p></div><div class="single-block-digit"><div class="gradient-text">%M</div><p class="time-unit-text">Minutes</p></div><div class="single-block-digit"><div class="gradient-text">%S</div><p class="time-unit-text">Seconds</p></div>'
-                        )
-                    );
-                }
+      $(document).ready(function () {
+        $(".count-down-clock").countdown(
+          "2024/11/23 08:30:00",
+          function (event) {
+            $(this).html(
+              event.strftime(
+                '<div class="single-block-digit"><div class="gradient-text">%D</div><p class="time-unit-text">Days</p></div><div class="single-block-digit"><div class="gradient-text">%H</div><p class="time-unit-text">Hours</p></div><div class="single-block-digit"><div class="gradient-text">%M</div><p class="time-unit-text">Minutes</p></div><div class="single-block-digit"><div class="gradient-text">%S</div><p class="time-unit-text">Seconds</p></div>'
+              )
             );
-        });
+          }
+        );
+      });
     </script>
 </body>
 
