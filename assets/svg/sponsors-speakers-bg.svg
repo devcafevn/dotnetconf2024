@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 209.31 147.85">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-3, .cls-4 {
+        mix-blend-mode: screen;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-4 {
+        fill: url(#radial-gradient-2);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" width="209.31" height="147.85"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="123.61" cy="99.34" fx="123.61" fy="99.34" r="265.28" gradientTransform="translate(38.3 -76.46) rotate(-7.94) scale(1.19 1.21) skewX(-.28)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2a0c95"/>
+      <stop offset=".06" stop-color="#240a80"/>
+      <stop offset=".2" stop-color="#190759"/>
+      <stop offset=".35" stop-color="#100438"/>
+      <stop offset=".49" stop-color="#08021f"/>
+      <stop offset=".65" stop-color="#03010e"/>
+      <stop offset=".81" stop-color="#000003"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="2694.82" cy="-1354.99" fx="2694.82" fy="-1354.99" r="171.91" gradientTransform="translate(2472.47 -1769.16) rotate(171.37) scale(1 1.1) skewX(-1.73)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c37163"/>
+      <stop offset=".05" stop-color="#af6558"/>
+      <stop offset=".17" stop-color="#814a41"/>
+      <stop offset=".29" stop-color="#59332d"/>
+      <stop offset=".42" stop-color="#38211c"/>
+      <stop offset=".55" stop-color="#1f1210"/>
+      <stop offset=".69" stop-color="#0e0807"/>
+      <stop offset=".83" stop-color="#030101"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+  </defs>
+  <g class="cls-1">
+    <g id="Layer_2" data-name="Layer 2">
+      <g id="Layer_1-2" data-name="Layer 1">
+        <g class="cls-5">
+          <ellipse class="cls-3" cx="200.15" cy="22.46" rx="315.82" ry="321.45"/>
+          <ellipse class="cls-4" cx="-13.28" cy="122.03" rx="171.9" ry="190.31"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
