@@ -439,18 +439,6 @@ html {
   background-image: radial-gradient(circle farthest-side at 150px 40px, #a03d00, #803000 , #592200 , #381500 , #1f0c00 , #0e0500, #030100, #000);
 }
 
-.gift-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.gift-picture {
-  background: url(../assets/img/gift-bg.png) 50%/cover border-box padding-box;
-  border: 2px solid white;
-  border-radius: 50%;
-}
-
 .gift-title {
   margin-top: 4rem;
   width: 40%;
@@ -473,7 +461,7 @@ html {
 }
 
 .agenda-section-title {
-  width: 15%;
+  width: 45%;
   height: auto;
 }
 
@@ -519,7 +507,7 @@ html {
 }
 
 .agenda-title-right {
-  color: #0094D5;
+  color: #d6001c;
   padding-left: 1rem;
   font-weight: bold;
 }
@@ -534,7 +522,7 @@ html {
 }
 
 .speakers-sponsor-background {
-  background-image: url("../assets/img/sponsors-speakers-bg.jpg");
+  background-image: url("../assets/svg/sponsors-speakers-bg.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -627,12 +615,12 @@ html {
 }
 
 .nt-sponsor-icon {
-  width: 20%;
+  width: 11.5%;
   height: auto;
 }
 
 .ms-sponsor-icon {
-  width: 20%;
+  width: 17%;
   height: auto;
 }
 
@@ -660,6 +648,12 @@ html {
 
 .half-block:nth-child(2) {
   justify-content: flex-start;
+}
+
+.fb-icon {
+  cursor: pointer;
+  width: 9.8%;
+  height: auto;
 }
 
 .contact-section-icon {
@@ -802,7 +796,7 @@ html {
   }
 
   .agenda-section-title {
-    width: 16%;
+    width: 40%;
     height: auto;
     margin-top: 6vw;
   }
@@ -889,8 +883,12 @@ html {
     width: 40%;
   }
 
+  .fb-icon {
+    width: 14.4%;
+  }
+
   .contact-section-icon {
-    width: 14%;
+    width: 15%;
   }
 
   .website-icon {
@@ -959,10 +957,6 @@ html {
     padding: 8% 22%;
   }
 
-  .gift-item {
-    margin: 4% 0;
-  }
-
   .gift-section-title {
     width: 15%;
   }
@@ -984,11 +978,15 @@ html {
   }
 
   .agenda-section-title {
-    width: 30%;
+    width: 75%;
   }
 
   .speakers-section-title {
     width: 25%;
+  }
+
+  .fb-icon {
+    width: 12%;
   }
 
   .contact-section-icon {
@@ -1038,15 +1036,15 @@ html {
     margin-top: 0;
   }
 
-  .nt-sponsor-icon {
-    /* width: 9%; */
-    /* height: auto; */
+  /* .nt-sponsor-icon {
+    width: 9%;
+    height: auto;
   }
 
   .ms-sponsor-icon {
-    /* width: 12%; */
-    /* height: auto; */
-  }
+    width: 12%;
+    height: auto;
+  } */
 }
 
 @media only screen and (max-width: 560px) {
