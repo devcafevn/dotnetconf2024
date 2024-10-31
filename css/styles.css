@@ -461,7 +461,7 @@ html {
 }
 
 .agenda-section-title {
-  width: 15%;
+  width: 45%;
   height: auto;
 }
 
@@ -658,7 +658,7 @@ html {
 
 .contact-section-icon {
   cursor: pointer;
-  width: 10%;
+  width: 11%;
   height: auto;
 }
 
@@ -796,7 +796,7 @@ html {
   }
 
   .agenda-section-title {
-    width: 16%;
+    width: 40%;
     height: auto;
     margin-top: 6vw;
   }
@@ -888,7 +888,7 @@ html {
   }
 
   .contact-section-icon {
-    width: 15%;
+    width: 16%;
   }
 
   .website-icon {
@@ -978,7 +978,7 @@ html {
   }
 
   .agenda-section-title {
-    width: 30%;
+    width: 75%;
   }
 
   .speakers-section-title {
@@ -990,7 +990,7 @@ html {
   }
 
   .contact-section-icon {
-    width: 12%;
+    width: 12.5%;
   }
 
   .about-us-text {
